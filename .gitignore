@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.coverage
+dist/
+
+# Estado local de MLflow
+mlflow.db
+ci-mlflow.db
+mlruns/
+mlartifacts/
