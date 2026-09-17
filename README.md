@@ -1,5 +1,7 @@
 # MLflow Starter
 
+[![CI](https://github.com/jflorez-giraldo/mlflow-mlops-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/jflorez-giraldo/mlflow-mlops-starter/actions/workflows/ci.yml)
+
 Proyecto local reproducible para aprender MLflow 3 y recorrer un ciclo MLOps completo:
 
 - Entrenamiento, evaluacion y registro de un modelo con scikit-learn.
@@ -172,7 +174,10 @@ La imagen publicada queda disponible como:
 ghcr.io/jflorez-giraldo/mlflow-mlops-starter:latest
 ```
 
-Esta carpeta todavia no es un repositorio Git. El workflow se activara al inicializarla, crear un repositorio en GitHub y subir los archivos.
+El repositorio esta publicado en [GitHub](https://github.com/jflorez-giraldo/mlflow-mlops-starter).
+La rama `main` exige que los jobs `quality-and-integration` y `docker` terminen correctamente,
+bloquea force-push y publica la imagen aprobada en
+[GHCR](https://github.com/users/jflorez-giraldo/packages/container/package/mlflow-mlops-starter).
 
 ## `uv` frente a `uvx`
 
